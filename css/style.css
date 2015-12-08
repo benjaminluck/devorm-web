@@ -11,6 +11,14 @@
 
 @media(max-width:767px){
     
+    #slide-0{
+     background: linear-gradient(#CEB5B4, #B99898); 
+    background-image: none; 
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    }
+    
     #headerTxt{
         font-size:15em;         
     }
@@ -35,11 +43,6 @@
 }
 
 
-body {
-    color: black;   
-}
-
-
 .catNo{
     padding: 5px; 
     border: 3px solid black; 
@@ -55,7 +58,7 @@ body {
     position: fixed;
     width: 200px;
     top: 15px;
-    left: 15px;
+    left: 30px;
     font-size: 1.5em;
     background-color: transparent; 
     z-index: 10;
@@ -111,7 +114,7 @@ body {
 }
 
 #slide-0{
-    background-image: url("img/cosxy.jpg"); 
+    background-image: url("../img/cosxy.jpg"); 
     background-size: 100% 100%;
     background-position: center; 
     background-repeat: no-repeat;
@@ -127,15 +130,35 @@ body {
 /*    background: linear-gradient(#647379, #676F7D);  */
 }
 
+.slick-slide {
+    outline: none !important;
+}
+
+.slick-slide:focus {
+    outline: none !important;
+}
 
 body{
  font-family: 'Roboto', sans-serif;    
- background-color: white;  
+ background-color: white;      
+ color: black;  
+ overflow: hidden;   
+}
+
+.panel{
+    border: 0px;
+    background-color: white;
+}
+
+.panel-default > .panel-heading{
+    background-color: #fff;
+    
 }
 
 ul{
- padding-left: 15px;   
+ padding-left: 0px;   
 }
+
 li{
  list-style: none;
  padding-left: 0px;

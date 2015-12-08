@@ -14,7 +14,7 @@
                 </div>
                 <div id="mid" class="row col-md-12">
                     <div class="col-md-6 col-md-offset-3 hidden-xs text-center">
-                        <a href="https://devormrecords.bandcamp.com/album/mune"><img class="rectangleRelease" width="400" height="400" src="img/dev002.jpg"></a>
+                        <a target="_blank" href="https://devormrecords.bandcamp.com/album/mune"><img class="rectangleRelease" width="400" height="400" src="img/dev002.jpg"></a>
                     </div>
                 </div>
                 <div id="bottomRow" class="row col-md-12">
