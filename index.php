@@ -52,7 +52,7 @@
       <h4 class="panel-title" align="right">
           
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            =
+            +
         </a>
       </h4>
     </div>

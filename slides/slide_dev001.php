@@ -14,7 +14,7 @@
                 </div>
                 <div id="mid" class="row col-md-12">
                     <div class="col-md-6 col-md-offset-3 hidden-xs text-center">
-                        <a target="_blank" href="https://devormrecords.bandcamp.com/album/what-world-when"><img class="rectangleRelease" width="400" height="400" src="img/dev001.jpg"></a>
+                        <iframe style="border: 0; width: 450px; height: 450px;" src="https://bandcamp.com/EmbeddedPlayer/album=2804338416/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://devormrecords.bandcamp.com/album/what-world-when">What World When by Eigenheimer x Individualism</a></iframe>
                     </div>
                 </div>
                 <div id="bottomRow" class="row col-md-12">

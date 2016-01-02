@@ -14,7 +14,7 @@
                 </div>
                 <div id="mid" class="row col-md-12">
                     <div class="col-md-6 col-md-offset-3 hidden-xs text-center">
-                        <a target="_blank" href="https://devormrecords.bandcamp.com/album/mune"><img class="rectangleRelease" width="400" height="400" src="img/dev002.jpg"></a>
+                        <iframe style="border: 0; width: 450px; height: 450px;" src="https://bandcamp.com/EmbeddedPlayer/album=2796734636/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://devormrecords.bandcamp.com/album/mune">MUNE by TYRO</a></iframe>
                     </div>
                 </div>
                 <div id="bottomRow" class="row col-md-12">
