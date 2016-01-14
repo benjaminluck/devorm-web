@@ -1,4 +1,4 @@
-<div id="dev001">
+<div id="dev001" class="slide">
                 <a title="#dev001"></a>
                 <div id="topRow" class="row">
                     <div class="col-md-12" style="margin-top:20px;">

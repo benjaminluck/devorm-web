@@ -39,6 +39,22 @@
 }
 
 
+body{
+     font-family: 'Roboto', sans-serif;    
+    background-color: white;      
+    color: black;  
+    overflow-x: hidden;     
+}
+
+.slide{
+    background-color: transparent;   
+}
+
+.relList{
+    font-size:0.6em;
+    margin-left: 20px;
+}
+
 .catNo{
     padding: 5px; 
     border: 3px solid black; 
@@ -110,10 +126,10 @@
 }
 
 #slide-0{
-    background-image: url("../img/cosxy.jpg"); 
+  /*  background-image: url("../img/cosxy.jpg"); 
     background-size: 100% 100%;
     background-position: center; 
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
 }
 
@@ -134,12 +150,6 @@
     outline: none !important;
 }
 
-body{
- font-family: 'Roboto', sans-serif;    
- background-color: white;      
- color: black;  
- overflow: hidden;   
-}
 
 .panel{
     border: 0px;
@@ -159,4 +169,5 @@ li{
  list-style: none;
  padding-left: 0px;
  text-indent: none;
+ border-bottom: 0px;
 }
