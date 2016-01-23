@@ -40,8 +40,8 @@
 
 
 body{
-     font-family: 'Roboto', sans-serif;    
-    background-color: white;      
+    font-family: 'Roboto', sans-serif;    
+    background-image: url("../img/bg/bg-combined.jpg");     
     color: black;  
     overflow-x: hidden;     
 }
@@ -97,6 +97,10 @@ body{
     padding: 0px;
 }
 
+.margin-top-55pc{
+    margin-top: 55%;   
+}
+
 .rectangleRelease{
     margin: auto;
     width: 600px;
@@ -125,12 +129,29 @@ body{
     height: 15%;
 }
 
+.text-size-full{
+    font-size: 1.5em;
+}
+
+.black-block{
+    text-size: 10px; 
+    padding: 5px; 
+    border: 3px solid black; 
+    width: 13%; 
+    margin:auto; background-color: black; color: white;   
+}
+
 #slide-0{
   /*  background-image: url("../img/cosxy.jpg"); 
     background-size: 100% 100%;
     background-position: center; 
     background-repeat: no-repeat; */
     
+}
+
+#slide-0{
+ background-image: url("../img/bg/about.jpg"); 
+ background-size: cover;
 }
 
 #slide-1{
@@ -143,6 +164,7 @@ body{
 }
 
 .slick-slide {
+    min-height: 100%;
     outline: none !important;
 }
 
