@@ -7,7 +7,7 @@ function moveThroughSplash(){
     $('.nav').css('opacity', 1);
     $('.container').slick('slickGoTo', 1);
     $('.container').slick('slickRemove', 0);
-    $('.conatiner').slick('slickSetOption','accesibility', true);
+    $('.container').slick('slickSetOption','accessibility', true);
     $('.conatiner').slick('slickSetOption','draggable', true);
 }
 

@@ -84,7 +84,7 @@
     $(document).ready(function(){
         
       $('.container').slick({
-        accesibility: false,
+        accessibility: false,
         dots: false,
         infinite: true,
         speed: 300,
