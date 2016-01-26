@@ -74,6 +74,7 @@
   </div>
 </div>
         <div class="container">
+            <?php include 'slides/slide_splash.php' ?>
             <?php include 'slides/slide_about.php' ?>
             <?php include 'slides/slide_dev001.php' ?>
             <?php include 'slides/slide_dev002.php' ?>
@@ -83,12 +84,19 @@
     $(document).ready(function(){
         
       $('.container').slick({
+        accessibility: false,
         dots: false,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        draggable: true
+        draggable: false,
+        fade: false
       });
+           
+        
+      $('#gate').click(function(){
+         moveThroughSplash();
+    });
     
       $('#about').click(function(){
           $('.container').slick('slickGoTo', 0);
