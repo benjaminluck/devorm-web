@@ -1,4 +1,4 @@
-<div id="slide-0" class="slide">
+<div id="slide-splash" class="slide">
                 <a title="#about"></a>
                 <div id="content" class="row">
                         <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
