@@ -58,14 +58,12 @@ body{
   -ms-transition:  opacity 0.5s ease;
   -o-transition:  opacity 0.5s ease;
   transition:  opacity 0.5s ease;
-  transition-delay:0.2s;}
-}
-    
+  transition-delay:0.2s;
 }
 
 .relList{
-    font-size:0.6em;
-    margin-left: 20px;
+    font-size:0.8em;
+    margin-left: 10px;
 }
 
 .catNo{
