@@ -46,8 +46,21 @@ body{
     overflow-x: hidden;     
 }
 
+#slide-splash{
+    background-color: white;
+    background-image: url("../img/devorm-typo.jpg");
+}
+
 .slide{
-    background-color: transparent;   
+    background-color: transparent;
+    -webkit-transition:   opacity 0.5s ease;
+  -moz-transition:  opacity 0.5s ease;
+  -ms-transition:  opacity 0.5s ease;
+  -o-transition:  opacity 0.5s ease;
+  transition:  opacity 0.5s ease;
+  transition-delay:0.2s;}
+}
+    
 }
 
 .relList{
