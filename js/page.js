@@ -15,6 +15,12 @@ function moveThroughSplash(){
     $('.container').slick("slickSetOption",'accessibility', true);
     $('.container').slick("slickSetOption",'draggable', true);
     $('.container').slick("slickGetOption",'draggable');
+
+    unveilSplash(500,"#slide-splash","slide-0",1,0);
+    //$('.container').slick('slickGoTo', 1);
+    //$('.container').slick('slickRemove', 0);
+    $('.container').slick('slickSetOption','accessibility', true);
+    $('.container').slick('slickSetOption','draggable', true);
 }
 
 function lazyCollapse(time) {
@@ -59,3 +65,14 @@ $(document).keydown(function(e) {
     }
     
 });
+
+function unveilSplash(time, elementA, elementB, slideNoA, slideNoB){
+    $(elementA).css('opacity',0);
+    $(elementB).css('opacity',0);
+    setTimeout(function () {
+            $('.container').slick('slickGoTo', slideNoA);
+            $('.container').slick('slickRemove', slideNoA);
+            $(elementB).css('opacity',1);
+    }, time);  
+}
+

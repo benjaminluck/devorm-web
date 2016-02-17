@@ -36,7 +36,7 @@
             <ul>
                 <li><a href="#about" id="about" onclick="moveToSlickSlide(0)">about</a></li>
                 <li>releases</li>
-                <li>
+                <li class="relList">
                     <ul>
                         <li><a href="#dev001" id="dev001" class="relList" onclick="moveToSlickSlide(1)">DEV001</a></li>
                         <li><a href="#dev002" id="dev002" class="relList" onclick="moveToSlickSlide(2)">DEV002</a></li>
