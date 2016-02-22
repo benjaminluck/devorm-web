@@ -1,4 +1,4 @@
-var cursorKeyNavStuck = true; 
+cursorKeyNavStuck = true; 
 
 function moveToSlickSlide(toSlide){
     lazyCollapse(250);
@@ -29,20 +29,6 @@ function lazyCollapse(time) {
     }, time);
 }
 
-
-function unveilSplash(time, elementA, elementB, slideNoA, slideNoB){
-    cursorKeyNavStuck = false;
-    $(elementB).css('opacity', 0);
-    $(elementA).css('opacity', 0);
-    $('.container').slick('slickRemove', slideNoA);
-    $('.container').slick('slickGoTo', slideNoB);
-    setTimeout(function () {
-            $(elementA).css('opacity', 1);
-            $(elementB).css('opacity', 1);
-        //    $('.container').slick('slickGoTo', slideNoB);
-    }, time);
-}
-
 function lazyHideAndDestroy(time, element) {
     $(element).css('opacity', 0);
     $('.container').slick('slickGoTo', 1);
@@ -52,8 +38,6 @@ function lazyHideAndDestroy(time, element) {
 }
 
 $(document).keydown(function(e) {
-    console.log(e);
-    
     if(!cursorKeyNavStuck){
         if(e.which == 37) {
             $('.container').slick('slickPrev');
@@ -69,10 +53,12 @@ $(document).keydown(function(e) {
 function unveilSplash(time, elementA, elementB, slideNoA, slideNoB){
     $(elementA).css('opacity',0);
     $(elementB).css('opacity',0);
+    cursorKeyNavStuck = false;
     setTimeout(function () {
             $('.container').slick('slickGoTo', slideNoA);
             $('.container').slick('slickRemove', slideNoA);
             $(elementB).css('opacity',1);
+            
     }, time);  
 }
 
