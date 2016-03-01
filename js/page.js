@@ -16,11 +16,7 @@ function moveThroughSplash(){
     $('.container').slick("slickSetOption",'draggable', true);
     $('.container').slick("slickGetOption",'draggable');
 
-    unveilSplash(500,"#slide-splash","slide-0",1,0);
-    //$('.container').slick('slickGoTo', 1);
-    //$('.container').slick('slickRemove', 0);
-    $('.container').slick('slickSetOption','accessibility', true);
-    $('.container').slick('slickSetOption','draggable', true);
+
 }
 
 function lazyCollapse(time) {
