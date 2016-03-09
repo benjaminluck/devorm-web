@@ -50,12 +50,12 @@
         <div class="panel-group visible-xs" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title" align="right">
-          
-        <a role="button" id="nav-collapse-btn" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      <span class="panel-title" >
+          <span align="left">devorm</span>
+          <span class="float-r" align="right">
+          <a role="button" id="nav-collapse-btn" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             +
-        </a>
-      </h4>
+        </a></span>
     </div>
     <div id="collapseOne" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">

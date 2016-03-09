@@ -71,6 +71,18 @@ body{
 
 }
 
+.displayBlock{
+    display: block;
+}
+
+.panel-group {
+    margin-bottom: 0px;
+}
+
+.float-r{
+    float: right;
+}
+
 .relList{
     font-size:0.8em;
     margin-left: 10px;
@@ -202,7 +214,7 @@ body{
 }
 
 .slick-slide {
-    min-height: 100%;
+    height: 100%;
     outline: none !important;
 }
 
