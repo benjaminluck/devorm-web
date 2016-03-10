@@ -79,6 +79,11 @@ body{
     margin-bottom: 0px;
 }
 
+.panel-body {
+    padding: 0px;
+    margin-bottom: -10px;
+}
+
 .float-r{
     float: right;
 }
@@ -241,5 +246,5 @@ li{
  list-style: none;
  padding-left: 0px;
  text-indent: none;
- border-bottom: 0px;
+ border-bottom: 1px solid black;
 }
