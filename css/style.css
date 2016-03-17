@@ -246,5 +246,8 @@ li{
  list-style: none;
  padding-left: 0px;
  text-indent: none;
+}
+
+li.visible-xs{
  border-bottom: 1px solid black;
 }
