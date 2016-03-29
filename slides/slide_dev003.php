@@ -1,7 +1,7 @@
 <div id="dev003" class="slide">
                 <a title="#dev003"></a>
                 <div id="content" class="row">
-                    <div class="col-md-12" style="margin-top:20px;">
+                    <div class="col-md-12" style="margin-top:25px;">
                         <div style="text-align: center"></div>
                     </div>
                     <div class="col-md-12" style="min-height: 15%">

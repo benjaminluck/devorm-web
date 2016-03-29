@@ -39,6 +39,19 @@
 }
 
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+        
+span:hover {
+    border-bottom: solid 1px #000;
+    cursor: hand;
+    display: inline;
+    color: black;
+    padding-bottom: 3px;
+}  
+
 body{
     font-family: 'Roboto', sans-serif;    
     background-image: url("../img/bg/bg-combined.jpg");     
@@ -46,9 +59,10 @@ body{
     overflow-x: hidden;     
 }
 
-#slide-splash{
-    background-color: white;
-    background-image: url("../img/devorm-typo.jpg");
+#gate{
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
 
 .slide{
@@ -69,6 +83,11 @@ body{
   transition:  opacity 0.5s ease;
   transition-delay:0.2s;
 
+}
+
+
+.m-t-50{
+    margin-top: 50px;
 }
 
 .displayBlock{
@@ -101,7 +120,8 @@ body{
     font-size: 1.5em;
 }
 .track{
-    font-family: 'Track';   
+    font-family: 'Track'; 
+    font-size: 18px;
 }
 
 .nav{
@@ -142,6 +162,18 @@ body{
     padding: 0px;
 }
 
+.margin-top-20pc{
+    margin-top: 20%;
+}
+
+.margin-top-25pc{
+    margin-top: 25%;
+}
+
+.margin-top-40pc{
+    margin-top: 40%;
+}
+
 .margin-top-55pc{
     margin-top: 55%;   
 }
@@ -150,10 +182,20 @@ body{
     margin-top: 75%;   
 }
 
+.margin-top-90pc{
+    margin-top: 90%;   
+}
+
+.rectangleSplash{  
+    height: 220px;
+    background-image: url("../img/devorm-splash.jpg");  
+    background-size: cover;  
+}
+
 .rectangleRelease{
     margin: auto;
-    width: 600px;
-    height: 600px; 
+    width: 450px;
+    height: 450px; 
     background-color: black;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
@@ -214,8 +256,8 @@ body{
 
 #slide-splash{
  background-color: white;    
- background-image: url("../img/devorm-splash.jpg"); 
- background-size: cover;   
+/* background-image: url("../img/devorm-splash.jpg"); */ 
+/* background-size: cover; */ 
 }
 
 .slick-slide {
